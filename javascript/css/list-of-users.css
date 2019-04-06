@@ -1,0 +1,17 @@
+body {
+    font-family: consolas;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table tr td {
+    border: 1px solid pink;
+}
+.colheading {
+    font-style: italic;
+    font-weight: bold;
+}
+.center {
+    text-align: center;
+}

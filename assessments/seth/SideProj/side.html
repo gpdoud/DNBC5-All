@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Seth's Friend List</title>
+        <script src="side.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <table id="inputTable">
+            <tr>
+                <td>
+                    Name:
+                </td>
+                <td>
+                    <input id="name" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Age:
+                </td>
+                <td>
+                    <input id="age" type="number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Is BFF?:
+                </td>
+                <td>
+                    <input id="bff" type="checkbox">
+                </td>
+            </tr>
+        </table>
+        <button onclick="insertFunction()">Insert</button>
+        <table class="table table-sm">
+            <thead>
+                <td>Name:</td>
+                <td>Age:</td>
+                <td>Is BFF?</td>
+            </thead>
+            <tbody id="dataTable">
+                <td id="inputName"></td>
+                <td id="inputAge"></td>
+                <td id="inputBff"></td>
+            </tbody>
+        </table>
+    </body>
+</html>

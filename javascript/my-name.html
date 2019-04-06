@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Name</title>
+    <script lang="javascript">
+        function go() {
+            var firstname = document.getElementById("firstname").value;
+            var lastname = document.getElementById("lastname").value;
+            document.getElementById("fullname").innerText = firstname + " " + lastname;
+        }
+    </script>
+</head>
+<body>
+    <p>
+        <input id="firstname" type="text">
+    </p>
+    <p>
+        <input id="lastname" type="text">
+    </p>
+    <p>
+        <button onclick="go();">Go</button>
+    </p>
+    <p>
+        <p id="fullname"></p>
+    </p>
+</body>
+</html>

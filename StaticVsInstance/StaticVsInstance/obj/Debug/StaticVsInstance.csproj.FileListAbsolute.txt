@@ -1,0 +1,7 @@
+C:\repos\dnbc5\StaticVsInstance\StaticVsInstance\bin\Debug\StaticVsInstance.exe.config
+C:\repos\dnbc5\StaticVsInstance\StaticVsInstance\bin\Debug\StaticVsInstance.exe
+C:\repos\dnbc5\StaticVsInstance\StaticVsInstance\bin\Debug\StaticVsInstance.pdb
+C:\repos\dnbc5\StaticVsInstance\StaticVsInstance\obj\Debug\StaticVsInstance.csprojAssemblyReference.cache
+C:\repos\dnbc5\StaticVsInstance\StaticVsInstance\obj\Debug\StaticVsInstance.csproj.CoreCompileInputs.cache
+C:\repos\dnbc5\StaticVsInstance\StaticVsInstance\obj\Debug\StaticVsInstance.exe
+C:\repos\dnbc5\StaticVsInstance\StaticVsInstance\obj\Debug\StaticVsInstance.pdb

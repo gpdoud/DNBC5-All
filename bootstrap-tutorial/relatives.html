@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script lang="javascript">
+        var relatives = [
+            { id: 1, name: "Margaret", relation: "grandmother", birthdate: "1930-05-08" },
+            { id: 2, name: "Greg", relation: "father", birthdate: "1957-08-27" },
+            { id: 3, name: "Cindy", relation: "mother", birthdate: "1954-07-06" },
+            { id: 4, name: "Rick", relation: "uncle", birthdate: "1959-03-31" },
+            { id: 5, name: "Sherry", relation: "aunt", birthdate: "1960-04-15" },
+            { id: 6, name: "Sandy", relation: "aunt", birthdate: "1961-05-18" },
+            { id: 7, name: "Lisa", relation: "aunt", birthdate: "1964-04-01" },
+            { id: 8, name: "Lori", relation: "aunt", birthdate: "1966-04-01" }
+        ]; 
+        function loaded() {
+            var tbody = document.getElementById("tbody");
+            tbody.innerHTML = "";
+            for(var rel of relatives) {
+                var row = `<div class='row'>`;
+                row += `<div class='col-1'>${rel.id}</div>`;
+                row += `<div class='col'>${rel.name}</div>`;
+                row += `<div class='col'>${rel.relation}</div>`;
+                row += `<div class='col'>${rel.birthdate}</div>`;
+                row += `</div>`;
+                tbody.innerHTML += row;
+            }
+        }       
+    </script>
+</head>
+<body onload="loaded();">
+    <div class="container">
+        <div id="thead">
+            <div class="row font-weight-bold">
+                <div class="col-1">Id</div>
+                <div class="col">Name</div>
+                <div class="col">Relation</div>
+                <div class="col">Birthdate</div>
+            </div>
+        </div>
+        <div id="tbody">
+
+        </div>
+    </div>
+</body>
+</html>

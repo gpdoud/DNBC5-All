@@ -1,0 +1,21 @@
+body {
+    font-family: Tahoma;
+}
+table {
+    width: 70%;
+    border-collapse: collapse;
+}
+table, tr, td {
+    border: 1px solid black;
+    
+}
+.center {
+    text-align: center;
+}
+.fav {
+    color: red;
+}
+.heading {
+    font-weight: bold;
+    font-style: italic;
+}

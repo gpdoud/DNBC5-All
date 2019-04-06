@@ -1,0 +1,10 @@
+<hr>
+<div>
+  <h5>Education</h5>
+  <ul>
+    <li *ngFor="let e of education">
+      <span [ngClass]="schoolClass">{{ e.school }}</span> {{ e.degree }} {{ e.duration }}
+    </li>
+  </ul>
+</div>
+

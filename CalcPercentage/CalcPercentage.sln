@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxMath", "CalcPercentage\MaxMath.csproj", "{3867E971-01D9-4FB9-8690-A58A81BD945D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMaxMath", "TestCalcPercentage\TestMaxMath.csproj", "{595DC463-7F8F-4995-9EAA-7D8056C061AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3867E971-01D9-4FB9-8690-A58A81BD945D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3867E971-01D9-4FB9-8690-A58A81BD945D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3867E971-01D9-4FB9-8690-A58A81BD945D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3867E971-01D9-4FB9-8690-A58A81BD945D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{595DC463-7F8F-4995-9EAA-7D8056C061AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{595DC463-7F8F-4995-9EAA-7D8056C061AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{595DC463-7F8F-4995-9EAA-7D8056C061AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{595DC463-7F8F-4995-9EAA-7D8056C061AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85B70661-5C4B-4535-A44F-8FE0384D41D3}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+body {
+    font-family: tahoma;
+    font-size: 18pt;
+}
+p {
+    color:coral;
+}
+#gd {
+    color: green;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-style: italic;
+}
+#contact {
+    font-weight: bold;
+}
+.red {
+    color: red;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/index.css">
+    <script src="js/index.js"></script>
+</head>
+
+<body onload="loaded()">
+    <table class="table">
+        <tr>
+            <td>Name:</td>
+            <td><input id="name" type="text" placeholder="Name"></td>
+        </tr>
+        <tr>
+            <td>Age:</td>
+            <td><input id="age" type="number" placeholder="Age"></td>
+        </tr>
+        <tr>
+            <td>BFF:</td>
+            <td><input id="bff" type="checkbox" placeholder="BFF"></td>
+        </tr>
+        <tr>
+            <td><button onclick="add()">Add</button></td>
+        </tr>
+
+    </table>
+    <hr>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>BFF</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+
+        </tbody>
+    </table>
+</body>
+
+</html>

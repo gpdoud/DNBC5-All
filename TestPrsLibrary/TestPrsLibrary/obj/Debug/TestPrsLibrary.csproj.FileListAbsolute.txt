@@ -1,0 +1,10 @@
+C:\repos\dnbc5\TestPrsLibrary\TestPrsLibrary\bin\Debug\TestPrsLibrary.exe.config
+C:\repos\dnbc5\TestPrsLibrary\TestPrsLibrary\bin\Debug\TestPrsLibrary.exe
+C:\repos\dnbc5\TestPrsLibrary\TestPrsLibrary\bin\Debug\TestPrsLibrary.pdb
+C:\repos\dnbc5\TestPrsLibrary\TestPrsLibrary\bin\Debug\PrsLibrary.dll
+C:\repos\dnbc5\TestPrsLibrary\TestPrsLibrary\bin\Debug\PrsLibrary.pdb
+C:\repos\dnbc5\TestPrsLibrary\TestPrsLibrary\obj\Debug\TestPrsLibrary.csprojAssemblyReference.cache
+C:\repos\dnbc5\TestPrsLibrary\TestPrsLibrary\obj\Debug\TestPrsLibrary.csproj.CoreCompileInputs.cache
+C:\repos\dnbc5\TestPrsLibrary\TestPrsLibrary\obj\Debug\TestPrsLibrary.csproj.CopyComplete
+C:\repos\dnbc5\TestPrsLibrary\TestPrsLibrary\obj\Debug\TestPrsLibrary.exe
+C:\repos\dnbc5\TestPrsLibrary\TestPrsLibrary\obj\Debug\TestPrsLibrary.pdb
